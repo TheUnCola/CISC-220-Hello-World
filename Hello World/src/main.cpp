@@ -1,11 +1,9 @@
-#include "main.h"
+#include "hello.h"
+#include <iostream>
 
-main::main() {
-	// TODO Auto-generated constructor stub
-
+int main()
+{
+	hello h();
+	std::cout << h.geta();
+    return 0;
 }
-
-main::~main() {
-	// TODO Auto-generated destructor stub
-}
-

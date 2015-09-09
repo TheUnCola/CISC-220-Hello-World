@@ -1,11 +1,14 @@
-#include "main.h"
+#include "hello.h"
 
-hello::hello() {
-	// TODO Auto-generated constructor stub
+hello::hello(char* a) {
+	b = a;
+}
 
+char* hello::geta() {
+     return b;
 }
 
 hello::~hello() {
-	// TODO Auto-generated destructor stub
+
 }
 
