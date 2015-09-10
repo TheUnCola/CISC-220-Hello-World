@@ -3,6 +3,7 @@
 
 class hello {
 public:
+	hello();
 	hello(char* a);
 	~hello();
 	char* geta();

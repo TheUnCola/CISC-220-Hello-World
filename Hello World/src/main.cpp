@@ -3,7 +3,7 @@
 
 int main()
 {
-	hello h();
+	hello h;
 	std::cout << h.geta();
     return 0;
 }
