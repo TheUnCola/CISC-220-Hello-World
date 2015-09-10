@@ -1,13 +1,12 @@
 #include "hello.h"
+#include <iostream>
 
-hello::hello() {}
-
-hello::hello(char* a) {
-	b = a;
+hello::hello() {
+	std::cout << geta();
 }
 
 char* hello::geta() {
-     return b;
+     return a;
 }
 
 hello::~hello() {
